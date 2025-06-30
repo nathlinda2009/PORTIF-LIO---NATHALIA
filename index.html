@@ -1,17 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <title>Portifólio - Nathalia & Ana Brito</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">    Hello World! </h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTIFÓLIO-NATHALIA</title>
+    <meta name="author" content="Seu Nome">
+    <title>Portifólio - Nathalia & Ana Brito</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e78ca7; /* Fundo lilás */
+            color: #fff; /* Texto branco para contraste */
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #ad426f; /* Lilás mais intenso */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: bold;
+            color: #db9aa8;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #ce93b3;
+        }
+
+        /* Seção Quem Sou Eu */
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(211, 138, 156, 0.9); /* Fundo branco com opacidade */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #a16382; /* Título em lilás vibrante */
+        }
+
+        /* Estilo para as habilidades */
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background-color: #d397b3; /* Lilás claro para as habilidades */
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            color: #583e41; /* Texto escuro para contraste */
+        }
+
+        /* Estilo para os projetos */
+        .projects .project {
+            margin-bottom: 20px;
+        }
+
+        .projects img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #d397b3; /* Lilás vibrante para o rodapé */
+            color: #000000;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Links */
+        a {
+            text-decoration: none;
+            color: #d397b3; /* Lilás vibrante para links */
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #d397b3; /* Lilás mais escuro no hover */
+        }
+
+    </style>
 </head>
 <body>
-    
 
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Nathalia & Ana Brito <3</h1>
+        <img src="imagem /Captura de tela_2025-05-13_11-23-29.png" alt="imagem de perfil de uma menina com cabelos">
 
+        <p>Desenvolvedor Web | Designer | Criador</p>
+    </header>
 
+    <!-- Seção Quem Sou Eu -->
+    <section id="sobre">
+        <h2>Quem Sou Eu</h2>
+        <p>Olá! Somos Nathalia & Ana Brito desenvolvedoras web apaixonadas por criar experiências incríveis na web. Combinando design e programação, buscamos sempre melhorar nossas habilidades e aprender novas tecnologias.</p>
+    </section>
 
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="skills">
+        <h2>Minhas Habilidades</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>Design Responsivo</li>
+            <li>Git e GitHub</li>
+        </ul>
+    </section>
 
-    
+    <!-- Seção Projetos -->
+    <section id="projetos" class="projects">
+        <h2>Meus Projetos</h2>
+
+        <div class="project">
+            <h3>Projeto 1 -Portifólio Nathalia</h3>
+            <img src="imagem /projeto1" alt="um cartão de divulgação de uma loja de açai">
+            <img src="imagem /projeto 2.png" alt="logo de um aplicativo sobre pets">
+            <img src="imagem /projeto 3.png" alt="jogo com foguetes">
+            <p>Foi feito no site FIGMA.</p>
+        </div>
+
+        <div class="project">
+            <h3>Projeto 2 - Portifólio Ana Brito</h3>
+            <img src="" alt="Imagem do Projeto 2">
+            <p>Foi feito no site FIGMA</p>
+        </div>
+        
+        <!-- Adicione mais projetos aqui -->
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Você pode me encontrar nas seguintes redes sociais ou me enviar um e-mail:</p>
+        <ul>
+            <li>Email: nathalia.soranso.costa@escola.pr.gov & ana.carolina.brito@escola.pr.gov.br </li>
+        
+            <li><a href="https://github.com/nathlinda2009" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 (Nathalia e Ana) Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
